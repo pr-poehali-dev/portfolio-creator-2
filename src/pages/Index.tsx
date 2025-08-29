@@ -25,7 +25,7 @@ const Index = () => {
       title: 'E-commerce Platform',
       description: 'Полнофункциональная платформа для онлайн торговли с React, Node.js и PostgreSQL',
       tech: ['React', 'Node.js', 'PostgreSQL', 'Stripe API'],
-      image: '/img/a9c2ed20-c337-401e-9528-7c05f8be77d1.jpg',
+      image: '/img/a75a8905-678a-4c30-bdf1-f86b546ab7f3.jpg',
       code: `const ProductCard = ({ product, onAddToCart }) => {
   return (
     <div className="product-card">
@@ -44,7 +44,7 @@ const Index = () => {
       title: 'Task Management API',
       description: 'RESTful API для управления задачами с аутентификацией и real-time уведомлениями',
       tech: ['Express.js', 'Socket.io', 'JWT', 'Redis'],
-      image: '/img/d5a665df-e6fd-411e-8bd0-d5f7226fd424.jpg',
+      image: '/img/1be0b50f-3e8d-4d20-9fc1-f827c39f9e47.jpg',
       code: `app.post('/api/tasks', authenticate, async (req, res) => {
   try {
     const task = await Task.create({
